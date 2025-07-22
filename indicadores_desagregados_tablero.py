@@ -151,10 +151,13 @@ st.markdown(
         unsafe_allow_html=True
 )
 
-with open("definiciones.txt", "r", encoding="utf-8") as f:
-    definiciones = f.read()
+# Enlace al documento de definiciones
+url_definiciones = "https://github.com/HiloFerrea/SIPG_Indicadores_desagregados_del_ML/blob/main/definiciones.txt"
 
-st.markdown("### Definiciones")
-st.markdown(definiciones)
-
+st.markdown(
+    f"<div style='text-align: center; margin-top: 2em;'>"
+    f"<a href='{url_definiciones}' target='_blank' style='font-size: 0.95em;'>"
+    f"📄 Ver definiciones de los indicadores</a></div>",
+    unsafe_allow_html=True
+)
 
