@@ -152,7 +152,7 @@ st.markdown(
 )
 
 # Enlace para descargar directamente el documento de definiciones
-url_docx = "https://github.com/HiloFerrea/SIPG_IDML_2025/raw/main/definiciones.docx"
+url_docx = "https://github.com/HiloFerrea/SIPG_IDML_2025/raw/main/definiciones_idml.docx"
 
 st.markdown(
     f"<div style='text-align: center; margin-top: 2em;'>"
