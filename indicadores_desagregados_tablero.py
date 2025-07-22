@@ -157,6 +157,6 @@ url_docx = "https://github.com/HiloFerrea/SIPG_IDML_2025/raw/main/definiciones_i
 st.markdown(
     f"<div style='text-align: center; margin-top: 2em;'>"
     f"<a href='{url_docx}' download style='font-size: 0.95em;'>"
-    f"📥 Descargar definiciones de los indicadores (.docx)</a></div>",
+    f"Descargar definiciones de los indicadores (.docx)</a></div>",
     unsafe_allow_html=True
 )
