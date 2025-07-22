@@ -154,7 +154,7 @@ st.markdown(
 # Enlace al documento de definiciones
 url_definiciones = "https://github.com/HiloFerrea/SIPG_IDML_2025/blob/main/definiciones.docx"
 
-url_docx = "https://github.com/HiloFerrea/SIPG_Indicadores_desagregados_del_ML/raw/main/definiciones.docx"
+url_docx = "https://github.com/HiloFerrea/SIPG_IDML_2025/blob/main/definiciones.docx"
 
 st.markdown(
     f"<div style='text-align: center; margin-top: 2em;'>"
